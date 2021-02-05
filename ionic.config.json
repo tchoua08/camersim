@@ -1,0 +1,7 @@
+{
+  "name": "camersim",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
