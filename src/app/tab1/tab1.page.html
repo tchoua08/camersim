@@ -1,17 +1,26 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
     <ion-title>
-      Tab 1
+      Internet
     </ion-title>
+    <ion-segment [(ngModel)]="selectTabs" value="mtn">
+      <ion-segment-button value="mtn">
+        <ion-label>MTN</ion-label>
+      </ion-segment-button>
+      <ion-segment-button value="orange">
+        <ion-label>ORANGE</ion-label>
+      </ion-segment-button>
+    </ion-segment>
   </ion-toolbar>
 </ion-header>
 
 <ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Tab 1</ion-title>
-    </ion-toolbar>
-  </ion-header>
+  <div *ngIf="selectTabs == 'mtn'">
+    <app-internet></app-internet>
+  </div>
 
-  <app-explore-container name="Tab 1 page"></app-explore-container>
+  <div *ngIf="selectTabs == 'orange'">
+   
+  </div>
+  
 </ion-content>
