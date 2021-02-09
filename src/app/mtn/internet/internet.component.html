@@ -2,200 +2,84 @@
   <ion-header translucent>
     <ion-toolbar>
       <ion-title>Button</ion-title>
-     
+
     </ion-toolbar>
   </ion-header>
   <ion-content fullscreen>
 
     <section>
-    
+
     </section>
-    <ion-list>
+ <ion-list>
       <ion-list-header>
-       Forfaits Wanda net
+      Solde Internet
       </ion-list-header>
-  
       <ion-item>
-     
-        <ion-label>
-          50F=50Mo(3Jrs)
-        </ion-label>
-        <ion-button expand="block" (click)="wandNet(0)">Go</ion-button>
-       
-      </ion-item>
 
-      <ion-item>
-     
         <ion-label>
-          1000F=2.5Go(30Jrs)
+         solde
         </ion-label>
-        <ion-button expand="block" (click)="wandNet(1)">Go</ion-button>
-       
-      </ion-item>
+        <ion-button expand="block" (click)="solde()">Go</ion-button>
 
-      
-      <ion-item>
-     
-        <ion-label>
-          99F=105Mo(30Jrs)
-        </ion-label>
-        <ion-button expand="block" (click)="wandNet(2)">Go</ion-button>
-       
       </ion-item>
-
-      <ion-item>
-     
-        <ion-label>
-          199F=240Mo(30Jrs)
-        </ion-label>
-        <ion-button expand="block" (click)="wandNet(3)">Go</ion-button>
-       
-      </ion-item>
-
-      <ion-item>
-     
-        <ion-label>
-          299F=380Mo(30Jrs)
-        </ion-label>
-        <ion-button expand="block" (click)="wandNet(4)">Go</ion-button>
-       
-      </ion-item>
-
-      <ion-item>
-     
-        <ion-label>
-          500F=1.12Go(30Jrs)
-        </ion-label>
-        <ion-button expand="block" (click)="wandNet(5)">Go</ion-button>
-       
-      </ion-item>
-
-      <ion-item>  
-        <ion-label>
-         149F=170Mo(30Jrs)
-        </ion-label>
-        <ion-button expand="block" (click)="wandNet(6)">Go</ion-button>  
-      </ion-item>
-  
-    </ion-list>
-
- 
-    <ion-list>
-      <ion-list-header>
-       Forfait Internet jour
-      </ion-list-header>
-      <ion-item>  
-        <ion-label>
-         100F=100Mo
-        </ion-label>
-        <ion-button expand="block" (click)="wandNetJour(3)">Go</ion-button>  
-      </ion-item>
-
-      <ion-item>  
-        <ion-label>
-         250F=250Mo
-        </ion-label>
-        <ion-button expand="block" (click)="wandNetJour(4)">Go</ion-button>  
-      </ion-item>
-
-      <ion-item>  
-        <ion-label>
-         500F=600Mo
-        </ion-label>
-        <ion-button expand="block" (click)="wandNetJour(5)">Go</ion-button>  
-      </ion-item>
-
-      <ion-item>  
-        <ion-label>
-        1000F=2Go
-        </ion-label>
-        <ion-button expand="block" (click)="wandNetJour(6)">Go</ion-button>  
-      </ion-item>
-
-      <ion-item>  
-        <ion-label>
-         200F=2Go (00H-06H)
-        </ion-label>
-        <ion-button expand="block" (click)="wandNetJour(7)">Go</ion-button>  
-      </ion-item>
-  
-    </ion-list>
-
+  </ion-list>
 
 
     <ion-list>
       <ion-list-header>
-       Forfait Internet Semaine
+      Nos offres internet 
       </ion-list-header>
-      <ion-item>  
+
+      <ion-item>
+
         <ion-label>
-         700F=200Mo
+         Wanda net
         </ion-label>
-        <ion-button expand="block" (click)="wandNetSemaine(3)">Go</ion-button>  
+        <ion-button expand="block" (click)="wanda()">Go</ion-button>
+
       </ion-item>
 
-      <ion-item>  
+      <ion-item>
+
         <ion-label>
-         1000F=750Mo
+          Yamo surf
         </ion-label>
-        <ion-button expand="block" (click)="wandNetSemaine(4)">Go</ion-button>  
+        <ion-button expand="block" (click)="yamoSurf()">Go</ion-button>
+
       </ion-item>
 
-      <ion-item>  
+
+      <ion-item>
+
         <ion-label>
-         3000F=3Go
+         Forfait internet
         </ion-label>
-        <ion-button expand="block" (click)="wandNetSemaine(5)">Go</ion-button>  
+        <ion-button expand="block" (click)="forfaitNet()">Go</ion-button>
+
       </ion-item>
-  
+
+      <ion-item>
+
+        <ion-label>
+        Whatsapp
+        </ion-label>
+        <ion-button expand="block" (click)="watsapp()">Go</ion-button>
+
+      </ion-item>
+
     </ion-list>
 
-    
-    <ion-list>
-      <ion-list-header>
-       Forfait Internet Mois
-      </ion-list-header>
-      <ion-item>  
-        <ion-label>
-         850F=250Mo
-        </ion-label>
-        <ion-button expand="block" (click)="wandNetMois(2)">Go</ion-button>  
-      </ion-item>
 
-      <ion-item>  
-        <ion-label>
-         2000F=1.2Go
-        </ion-label>
-        <ion-button expand="block" (click)="wandNetMois(3)">Go</ion-button>  
-      </ion-item>
 
-      <ion-item>  
-        <ion-label>
-         4000F=3Go
-        </ion-label>
-        <ion-button expand="block" (click)="wandNetMois(4)">Go</ion-button>  
-      </ion-item>
 
-      <ion-item>  
-        <ion-label>
-         8000F=9.2Go
-        </ion-label>
-        <ion-button expand="block" (click)="wandNetMois(5)">Go</ion-button>  
-      </ion-item>
 
-      <ion-item>  
-        <ion-label>
-         10000F=30Go (1Go/J)
-        </ion-label>
-        <ion-button expand="block" (click)="wandNetMois(6)">Go</ion-button>  
-      </ion-item>
-  
-  
-    </ion-list>
+   
+
+   
 
   </ion-content>
 </ion-app>
 
 
 
- 
+

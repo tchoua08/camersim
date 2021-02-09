@@ -12,6 +12,27 @@ export class InternetComponent implements OnInit {
 
   ngOnInit() {}
 
+  solde(){
+     this.service.callPhoneNumber('*123*10*99#');
+  }
+
+
+  wanda(){
+    this.service.callPhoneNumber('*123*2*2#');
+  }
+
+  forfaitNet(){
+    this.service.callPhoneNumber('*123*4*2#');
+  }
+  
+  yamoSurf(){
+    this.service.callPhoneNumber('*123*3*7*1*2#');
+  }
+
+  watsapp(){
+    this.service.callPhoneNumber('*123*3*1*5#');
+  }
+
   wandNet(n:number){
     this.service.callPhoneNumber('*123*2*2*'+n+'#');
   }

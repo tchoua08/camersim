@@ -12,6 +12,10 @@ export class AppelComponent implements OnInit {
 
   ngOnInit() {}
 
+  solde(){
+    this.service.callPhoneNumber('*123*12*99#');
+ }
+
   wanda(n:number){
     this.service.callPhoneNumber('*123*2*1*0*'+n+'#');
   }
