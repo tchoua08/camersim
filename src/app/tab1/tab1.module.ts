@@ -5,6 +5,7 @@ import { FormsModule } from '@angular/forms';
 import { Tab1Page } from './tab1.page';
 import { ExploreContainerComponentModule } from '../explore-container/explore-container.module';
 import {InternetComponentModule} from './../mtn/internet/internet.module';
+import {InternetorangeComponentModule} from './../mtn/internetorange/internetorange.module';
 import { Tab1PageRoutingModule } from './tab1-routing.module';
 
 @NgModule({
@@ -13,6 +14,7 @@ import { Tab1PageRoutingModule } from './tab1-routing.module';
     CommonModule,
     FormsModule,
     InternetComponentModule,
+    InternetorangeComponentModule,
     ExploreContainerComponentModule,
     Tab1PageRoutingModule
   ],

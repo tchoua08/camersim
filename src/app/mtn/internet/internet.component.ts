@@ -17,6 +17,10 @@ export class InternetComponent implements OnInit {
   }
 
 
+  emprunt(){
+    this.service.callPhoneNumber('*123*3*6*1#');
+  }
+
   wanda(){
     this.service.callPhoneNumber('*123*2*2#');
   }
@@ -24,7 +28,7 @@ export class InternetComponent implements OnInit {
   forfaitNet(){
     this.service.callPhoneNumber('*123*4*2#');
   }
-  
+
   yamoSurf(){
     this.service.callPhoneNumber('*123*3*7*1*2#');
   }

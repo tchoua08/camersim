@@ -15,12 +15,12 @@
 </ion-header>
 
 <ion-content [fullscreen]="true">
-  <div *ngIf="selectTabs == 'mtn'">
+  <div *ngIf="selectTabs === 'mtn'">
     <app-internet></app-internet>
   </div>
 
-  <div *ngIf="selectTabs == 'orange'">
-   
+  <div *ngIf="selectTabs === 'orange'">
+    <app-internetorange></app-internetorange>
   </div>
-  
+
 </ion-content>

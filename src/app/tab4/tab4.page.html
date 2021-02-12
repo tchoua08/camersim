@@ -1,7 +1,7 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
     <ion-title>
-      Appel
+     Autres
     </ion-title>
     <ion-segment [(ngModel)]="selectTabs" value="mtn">
       <ion-segment-button value="mtn">
@@ -16,12 +16,11 @@
 
 <ion-content [fullscreen]="true">
   <div *ngIf="selectTabs == 'mtn'">
-    <app-appel></app-appel>
+    <app-autres></app-autres>
   </div>
 
   <div *ngIf="selectTabs == 'orange'">
-    <app-appelorange></app-appelorange>
+
   </div>
 
-  
 </ion-content>
