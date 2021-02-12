@@ -1,19 +1,20 @@
 import { Component, OnInit } from '@angular/core';
 import {ServiceService} from '../../service/service.service';
 
+
 @Component({
-  selector: 'app-sms',
-  templateUrl: './sms.component.html',
-  styleUrls: ['./sms.component.scss'],
+  selector: 'app-smsorange',
+  templateUrl: './smsorange.component.html',
+  styleUrls: ['./smsorange.component.scss'],
 })
-export class SmsComponent implements OnInit {
+export class SmsorangeComponent implements OnInit {
 
   constructor(private service:ServiceService) { }
 
   ngOnInit() {}
 
-  offreSms(){
-    this.service.callPhoneNumber('*123*4*6#');
+  packsms(n:number){
+    this.service.callPhoneNumber('#131*1*'+n+'#');
   }
   sms(n:number){
     this.service.callPhoneNumber('*123*4*6*'+n+'#');

@@ -1,0 +1,504 @@
+<ion-app>
+  <ion-header translucent>
+    <ion-toolbar>
+      <ion-title>Button</ion-title>
+
+    </ion-toolbar>
+  </ion-header>
+  <ion-content fullscreen>
+
+    <section>
+
+    </section>
+ <ion-list>
+  <ion-list-header>
+       Produits internet
+    </ion-list-header>
+      <ion-item>
+
+        <ion-label>
+         Solde internet
+        </ion-label>
+        <ion-button expand="block" (click)="solde()">Go</ion-button>
+
+      </ion-item>
+      <ion-item>
+
+        <ion-label>
+        SOS data
+        </ion-label>
+        <ion-button expand="block" (click)="emprunt()">Go</ion-button>
+
+      </ion-item>
+      <ion-item>
+
+        <ion-label>
+      Créer votre forfait data
+        </ion-label>
+        <ion-button expand="block" (click)="creerForfait()">Go</ion-button>
+
+      </ion-item>
+  </ion-list>
+
+
+<ion-list>
+      <ion-list-header>
+       Orange best deals (30 jours)
+      </ion-list-header>
+
+      <ion-item>
+
+        <ion-label>
+       8000F (9,2Go +9,2Go)
+        </ion-label>
+        <ion-button expand="block" (click)="orangeBestDeals(1)">Go</ion-button>
+
+      </ion-item>
+
+      <ion-item>
+
+        <ion-label>
+      4000F (3Go +3Go)
+        </ion-label>
+        <ion-button expand="block" (click)="orangeBestDeals(2)">Go</ion-button>
+
+      </ion-item>
+
+      <ion-item>
+
+        <ion-label>
+        2000F (1,2Go +1,2Go)
+        </ion-label>
+        <ion-button expand="block" (click)="orangeBestDeals(3)">Go</ion-button>
+
+      </ion-item>
+
+    </ion-list>
+
+
+    <ion-list>
+      <ion-list-header>
+       Orange best deals (3 jours)
+      </ion-list-header>
+
+      <ion-item>
+
+        <ion-label>
+       500F (500Mo + 500Mo)
+        </ion-label>
+        <ion-button expand="block" (click)="orangeBestDeals3(1)">Go</ion-button>
+
+      </ion-item>
+
+      <ion-item>
+
+        <ion-label>
+      300F (350Mo +350Mo)
+        </ion-label>
+        <ion-button expand="block" (click)="orangeBestDeals3(2)">Go</ion-button>
+
+      </ion-item>
+
+    </ion-list>
+
+    <ion-list>
+      <ion-list-header>
+       Orange best deals (24h)
+      </ion-list-header>
+
+      <ion-item>
+
+        <ion-label>
+       1000F (2Go + 2Go)
+        </ion-label>
+        <ion-button expand="block" (click)="orangeBestDeals24(1)">Go</ion-button>
+
+      </ion-item>
+
+      <ion-item>
+
+        <ion-label>
+      500F (600Mo + 600Mo)
+        </ion-label>
+        <ion-button expand="block" (click)="orangeBestDeals24(2)">Go</ion-button>
+
+      </ion-item>
+
+
+      <ion-item>
+
+        <ion-label>
+      250F (250Mo + 250Mo)
+        </ion-label>
+        <ion-button expand="block" (click)="orangeBestDeals24(3)">Go</ion-button>
+
+      </ion-item>
+
+      <ion-item>
+
+        <ion-label>
+      100F (100Mo + 100Mo)
+        </ion-label>
+        <ion-button expand="block" (click)="orangeBestDeals24(4)">Go</ion-button>
+
+      </ion-item>
+
+    </ion-list>
+
+
+
+
+
+
+
+
+
+
+
+
+    <ion-list>
+      <ion-list-header>
+     Forfait internet mois
+      </ion-list-header>
+
+      <ion-item>
+
+        <ion-label>
+        63000F (Giga data -5G/J)
+        </ion-label>
+        <ion-button expand="block" (click)="orangegigadata(1)">Go</ion-button>
+
+      </ion-item>
+
+      <ion-item>
+
+        <ion-label>
+        50400F (Giga data -4G/J)
+        </ion-label>
+        <ion-button expand="block" (click)="orangegigadata(2)">Go</ion-button>
+
+      </ion-item>
+
+      <ion-item>
+
+        <ion-label>
+        33450F (Giga data -3G/J)
+        </ion-label>
+        <ion-button expand="block" (click)="orangegigadata(3)">Go</ion-button>
+
+      </ion-item>
+
+      <ion-item>
+
+        <ion-label>
+        21500F (Giga data -2G/J)
+        </ion-label>
+        <ion-button expand="block" (click)="orangegigadata(4)">Go</ion-button>
+
+      </ion-item>
+
+
+      <ion-item>
+
+        <ion-label>
+        10000F (Giga data -1G/J)
+        </ion-label>
+        <ion-button expand="block" (click)="orangegigadata(5)">Go</ion-button>
+
+      </ion-item>
+
+      <ion-item>
+
+        <ion-label>
+        10000F (1G/J)
+        </ion-label>
+        <ion-button expand="block" (click)="orangeInternet(1)">Go</ion-button>
+
+      </ion-item>
+
+      <ion-item>
+
+        <ion-label>
+         8000F (2x4,6 Go)
+        </ion-label>
+        <ion-button expand="block" (click)="orangeInternet(2)">Go</ion-button>
+
+      </ion-item>
+
+      <ion-item>
+
+        <ion-label>
+         4000F (2x1,5 Go)
+        </ion-label>
+        <ion-button expand="block" (click)="orangeInternet(3)">Go</ion-button>
+
+      </ion-item>
+
+      <ion-item>
+
+        <ion-label>
+         2000F (2x600Mo)
+        </ion-label>
+        <ion-button expand="block" (click)="orangeInternet(4)">Go</ion-button>
+
+      </ion-item>
+
+
+      <ion-item>
+
+        <ion-label>
+         2040F Night(3Go)
+        </ion-label>
+        <ion-button expand="block" (click)="orangeInternet(5)">Go</ion-button>
+
+      </ion-item>
+
+    </ion-list>
+
+
+
+    <ion-list>
+      <ion-list-header>
+   Giga data deux semaines
+      </ion-list-header>
+
+      <ion-item>
+
+        <ion-label>
+        32250F (5Go/J)
+        </ion-label>
+        <ion-button expand="block" (click)="orange15gigadata(1)">Go</ion-button>
+
+      </ion-item>
+
+      <ion-item>
+
+        <ion-label>
+         25800F (4Go/J)
+        </ion-label>
+        <ion-button expand="block" (click)="orange15gigadata(2)">Go</ion-button>
+
+      </ion-item>
+
+      <ion-item>
+
+        <ion-label>
+         18000F (3Go/J)
+        </ion-label>
+        <ion-button expand="block" (click)="orange15gigadata(3)">Go</ion-button>
+
+      </ion-item>
+
+      <ion-item>
+
+        <ion-label>
+         11250F (2Go/J)
+        </ion-label>
+        <ion-button expand="block" (click)="orange15gigadata(4)">Go</ion-button>
+
+      </ion-item>
+
+      <ion-item>
+
+        <ion-label>
+         5250F (1Go/J)
+        </ion-label>
+        <ion-button expand="block" (click)="orange15gigadata(5)">Go</ion-button>
+
+      </ion-item>
+
+    </ion-list>
+
+
+    <ion-list>
+      <ion-list-header>
+   Giga data une semaine
+      </ion-list-header>
+
+      <ion-item>
+
+        <ion-label>
+        15400F (5Go/J)
+        </ion-label>
+        <ion-button expand="block" (click)="orange7gigadata(1)">Go</ion-button>
+
+      </ion-item>
+
+      <ion-item>
+
+        <ion-label>
+         12300F (4Go/J)
+        </ion-label>
+        <ion-button expand="block" (click)="orange7gigadata(2)">Go</ion-button>
+
+      </ion-item>
+
+      <ion-item>
+
+        <ion-label>
+         8950F (3Go/J)
+        </ion-label>
+        <ion-button expand="block" (click)="orange7gigadata(3)">Go</ion-button>
+
+      </ion-item>
+
+      <ion-item>
+
+        <ion-label>
+         5600F (2Go/J)
+        </ion-label>
+        <ion-button expand="block" (click)="orange7gigadata(4)">Go</ion-button>
+
+      </ion-item>
+
+      <ion-item>
+
+        <ion-label>
+         2650F (1Go/J)
+        </ion-label>
+        <ion-button expand="block" (click)="orange7gigadata(5)">Go</ion-button>
+
+      </ion-item>
+
+    </ion-list>
+
+
+    <ion-list>
+      <ion-list-header>
+   Giga data 3 jours
+      </ion-list-header>
+
+      <ion-item>
+
+        <ion-label>
+        6750F (5Go/J)
+        </ion-label>
+        <ion-button expand="block" (click)="orange3gigadata(1)">Go</ion-button>
+
+      </ion-item>
+
+      <ion-item>
+
+        <ion-label>
+         5400F (4Go/J)
+        </ion-label>
+        <ion-button expand="block" (click)="orange3gigadata(2)">Go</ion-button>
+
+      </ion-item>
+
+      <ion-item>
+
+        <ion-label>
+         4050F (3Go/J)
+        </ion-label>
+        <ion-button expand="block" (click)="orange3gigadata(3)">Go</ion-button>
+
+      </ion-item>
+
+      <ion-item>
+
+        <ion-label>
+         2550F (2Go/J)
+        </ion-label>
+        <ion-button expand="block" (click)="orange3gigadata(4)">Go</ion-button>
+
+      </ion-item>
+
+      <ion-item>
+
+        <ion-label>
+         1200F (1Go/J)
+        </ion-label>
+        <ion-button expand="block" (click)="orange3gigadata(5)">Go</ion-button>
+
+      </ion-item>
+
+    </ion-list>
+
+
+    <ion-list>
+      <ion-list-header>
+     Forfait internet 3 jours
+      </ion-list-header>
+
+      <ion-item>
+
+        <ion-label>
+        500F (2x250Mo)
+        </ion-label>
+        <ion-button expand="block" (click)="orange3Internet(1)">Go</ion-button>
+
+      </ion-item>
+
+      <ion-item>
+
+        <ion-label>
+         300F (2x175Mo)
+        </ion-label>
+        <ion-button expand="block" (click)="orange3Internet(2)">Go</ion-button>
+
+      </ion-item>
+
+    </ion-list>
+
+    <ion-list>
+      <ion-list-header>
+    Forfait jour (Valide 24H)
+      </ion-list-header>
+
+      <ion-item>
+
+        <ion-label>
+        1000F (2Go)
+        </ion-label>
+        <ion-button expand="block" (click)="orangejour(1)">Go</ion-button>
+
+      </ion-item>
+
+      <ion-item>
+
+        <ion-label>
+         500F (600Mo)
+        </ion-label>
+        <ion-button expand="block" (click)="orangejour(2)">Go</ion-button>
+
+      </ion-item>
+
+      <ion-item>
+
+        <ion-label>
+         250F (250Mo)
+        </ion-label>
+        <ion-button expand="block" (click)="orangejour(3)">Go</ion-button>
+
+      </ion-item>
+
+      <ion-item>
+
+        <ion-label>
+         100F (100Mo)
+        </ion-label>
+        <ion-button expand="block" (click)="orangejour(4)">Go</ion-button>
+
+      </ion-item>
+
+      <ion-item>
+
+        <ion-label>
+        102F (Découverte 80Mo)
+        </ion-label>
+        <ion-button expand="block" (click)="orangejour(5)">Go</ion-button>
+
+      </ion-item>
+
+
+
+
+    </ion-list>
+
+  </ion-content>
+</ion-app>
+
+
+
+
